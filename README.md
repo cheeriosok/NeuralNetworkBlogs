@@ -1,4 +1,4 @@
-# 🔍 SRCNN From Scratch: ML Systems Optimization with CUDA
+# SRCNN From Scratch: ML Systems Optimization with CUDA
 
 Welcome to a hands-on ML Systems Engineering journey — where we take a Super-Resolution Convolutional Neural Network (SRCNN) from a bare-bones MVP to a fully optimized CUDA-powered inference engine.
 
@@ -6,13 +6,13 @@ Welcome to a hands-on ML Systems Engineering journey — where we take a Super-R
 
 ---
 
-## ⚙️ Series Overview
+## Series Overview
 
 This is an 8-part blog series focused on building and optimizing an SRCNN from the ground up, with code, profiling, and GPU performance as the guiding principles. Each part ships working code and measurable improvements.
 
 ---
 
-### ✅ Project Progression
+### Project Progression
 
 | Part | Title | Focus |
 |------|-------|-------|
@@ -27,7 +27,7 @@ This is an 8-part blog series focused on building and optimizing an SRCNN from t
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/your-username/srcnn-cuda-opt
