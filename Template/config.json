@@ -1,0 +1,36 @@
+{
+    "data": {
+        "dataset_path": "tiny-imagenet-200",
+        "image_size": 64,
+        "channels": 3,
+        "num_classes": 200
+    },
+    "training": {
+        "epochs": 100,
+        "batch_size": 32,
+        "initial_learning_rate": 0.001,
+        "min_learning_rate": 1e-6,
+        "enable_validation": true,
+        "validation_split": 0.2
+    },
+    "model": {
+        "conv_layers": [
+            {"filters": 32, "kernel_size": 3},
+            {"filters": 64, "kernel_size": 3},
+            {"filters": 128, "kernel_size": 3}
+        ],
+        "fc_layers": [1024, 200],
+        "dropout_rate": 0.5
+    },
+    "checkpointing": {
+        "enable": true,
+        "save_frequency": 10,
+        "checkpoint_dir": "checkpoints",
+        "save_best_only": true
+    },
+    "hardware": {
+        "gpu_id": 0,
+        "num_workers": 4,
+        "pin_memory": true
+    }
+}
