@@ -1,4 +1,4 @@
-# SRCNN From Scratch: ML Systems Optimization with CUDA
+# Super-Resolution From Scratch: ML Systems Optimization with CUDA
 
 Welcome to a hands-on ML Systems Engineering journey — where we take a Super-Resolution Convolutional Neural Network (SRCNN) from a bare-bones MVP to a fully optimized CUDA-powered inference engine.
 
