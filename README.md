@@ -16,6 +16,7 @@ This is an 8-part blog series focused on building and optimizing an SRCNN from t
 
 | Part | Title | Focus |
 |------|-------|-------|
+| **0** | An introduction to Classical Algorithms in Super-Resolution | KNN, Bilinear, Bicubic, Lánczos |
 | **1** | MVP First: A Minimal Working SRCNN | NumPy/C++ inference-only baseline |
 | **2** | Profiling & First CUDA Kernel | Bottlenecks + naive CUDA conv2D |
 | **3** | Shared Memory & Tiling | Optimized conv2D kernel |
